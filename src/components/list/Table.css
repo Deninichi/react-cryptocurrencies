@@ -1,0 +1,47 @@
+.table-container {
+    overflow-x: auto; /* Needed for table to be responsive */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .table-head {
+    background-color: #0c2033;
+  }
+  
+  .table-head tr th {
+    padding: 10px 20px;
+    color: #9cb3c9;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .table-body {
+    text-align: left;
+    background-color: #0f273d;
+  }
+  
+  .table-body tr td {
+    padding: 24px 20px;
+    border-bottom: 2px solid #0c2033;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .table-rank {
+    color: #9cb3c9;
+    margin-right: 18px;
+    font-size: 12px;
+  }
+  
+  .table-dollar {
+    color: #9cb3c9;
+    margin-right: 6px;
+  }
+ .table-dollar.updating {
+    color: #22cc0b;
+  }

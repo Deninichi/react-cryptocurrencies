@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c2033;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.percent-fallen{
+    color: #f34c6e;
+  }
+
+.percent-raised{
+    color: #22cc0b;
+}
+
+.loading-container{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.error{
+    height: 100vh;
+    padding-top: 5vh;
+    position: relative;
+    text-align: center;
+    color: #f34c6e;
+    font-size: 28px
+}
